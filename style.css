@@ -1,0 +1,26 @@
+.logo span {
+  color: rgb(253, 75, 75);
+}
+section{
+  background-color: silver;
+  border-radius: 10px;
+  text-align: center;
+}
+#header{
+  font: 700 30pt Arial;
+  padding-top: 1rem;
+}
+div#timer{
+  font: 700 70pt Arial;
+  padding-bottom:1rem;
+}
+
+div#button{
+  padding-bottom: 1rem;
+  
+}
+
+footer {
+  padding-top: 2rem;
+  text-align: center;
+}
