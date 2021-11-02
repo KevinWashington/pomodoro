@@ -39,7 +39,7 @@ function counter() {
   if (cont <= cycles) {
     //If the normal time ends, break starts
     if (minutes == 0 && seconds == 00) {
-      if (cont == longbreaktime) {
+      if (cont == longbreaktime || cont == longbreaktime*2) {
         longbreak()
         if (minuteslongbreak == 0 && secondslongbreak == 0) {
           document.querySelector('#notification').play()
