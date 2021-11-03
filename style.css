@@ -1,26 +1,53 @@
-.logo span {
-  color: rgb(253, 75, 75);
+.logo {
+  color: rgb(255, 255, 255);
 }
-section{
-  background-color: silver;
+
+body {
+  background-color: rgb(255, 82, 82);
+}
+
+section {
+  background-color: rgb(255, 98, 98);
   border-radius: 10px;
   text-align: center;
 }
-#header{
+
+#header {
   font: 700 30pt Arial;
-  padding-top: 1rem;
-}
-div#timer{
-  font: 700 70pt Arial;
-  padding-bottom:1rem;
+  padding: 1rem 0 1rem;
+  color: aliceblue;
 }
 
-div#button{
+div#timer {
+  font: 900 70pt 'Nova Mono', monospace;
+  color: aliceblue;
   padding-bottom: 1rem;
-  
+}
+
+div#button {
+  padding-bottom: 1rem;
+}
+
+#start {
+  background-color: rgb(255, 255, 255);
+  border: rgb(255, 255, 255);
+  font: 700 18pt Arial;
+  color: rgb(253, 113, 113);
+  padding: 0.7rem 2rem 0.7rem 2rem;
+  border-radius: 10px;
+}
+
+#pause {
+  background-color: rgb(255, 255, 255);
+  border: rgb(255, 255, 255);
+  font: 700 18pt Arial;
+  color: rgb(253, 113, 113);
+  padding: 0.7rem 2rem 0.7rem 2rem;
+  border-radius: 10px;
 }
 
 footer {
+  color: aliceblue;
   padding-top: 2rem;
   text-align: center;
 }
