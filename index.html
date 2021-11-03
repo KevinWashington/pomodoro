@@ -7,21 +7,26 @@
     <title>Pomodoro</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <h1 class="logo">pomo<span>doro</span>.</h1>
+      <h1 class="logo">Pomodoro.</h1>
     </header>
     <section>
-      <h1 id = header>Click to start</h1>
+      <div id="header">Click to start</div>
       <div id="timer">25:00</div>
       <div id="button">
-        <input id="start" type="button" value="start" onclick="start()" />
-        <input id="pause" type="button" value="pause" onclick="pause()" />
-        
+        <input id="start" type="button" value="START" onclick="start()" />
+        <input id="pause" type="button" value="PAUSE" onclick="pause()" />
       </div>
       <audio id="notification" preload="auto">
-          <source src="audio.mp3" type="audio/mpeg">
+        <source src="audio.mp3" type="audio/mpeg" />
       </audio>
     </section>
     <footer>Developed by &copy;KevinWashington</footer>
