@@ -1,8 +1,15 @@
 .logo {
+  margin-left: 1em;
+  text-align: left;
+  font-size: 2em ;
   color: rgb(255, 255, 255);
 }
 
+
 body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
   background-color: rgb(255, 82, 82);
 }
 
@@ -10,41 +17,64 @@ section {
   background-color: rgb(255, 98, 98);
   border-radius: 10px;
   text-align: center;
+  margin: auto;
+  width: 75%;
 }
 
-#header {
+h1 {
   font: 700 30pt Arial;
   padding: 1rem 0 1rem;
   color: aliceblue;
 }
 
-div#timer {
-  font: 900 70pt 'Nova Mono', monospace;
-  color: aliceblue;
-  padding-bottom: 1rem;
+svg {
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
+
+.item{
+  position: relative;
+}
+
+.item #timer{
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+.circulo-animado{
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+  transition: all 1s linear;
+}
+
+div#timer {
+  font: 900 270% 'Nova Mono', monospace;
+  color: aliceblue;
+}
+
+
 
 div#button {
   padding-bottom: 1rem;
 }
 
-#start {
+.btn {
   background-color: rgb(255, 255, 255);
-  border: rgb(255, 255, 255);
+  border: none;
   font: 700 18pt Arial;
   color: rgb(253, 113, 113);
   padding: 0.7rem 2rem 0.7rem 2rem;
   border-radius: 10px;
 }
 
-#pause {
-  background-color: rgb(255, 255, 255);
-  border: rgb(255, 255, 255);
-  font: 700 18pt Arial;
-  color: rgb(253, 113, 113);
-  padding: 0.7rem 2rem 0.7rem 2rem;
-  border-radius: 10px;
-}
+
 
 footer {
   color: aliceblue;
