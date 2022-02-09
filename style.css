@@ -71,6 +71,7 @@ div#button {
   font: 700 18pt Arial;
   color: rgb(253, 113, 113);
   padding: 0.7rem 2rem 0.7rem 2rem;
+  margin-bottom: 5px;
   border-radius: 10px;
 }
 
