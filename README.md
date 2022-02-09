@@ -2,6 +2,7 @@
 
 Este é um sistema que eu desenvolvi quando estava aprendendo JavaScript.
 
+<img src="http://www.sobreadministracao.com/wp-content/uploads/2019/11/tecnica-pomodoro-produtividade-614x420.jpg" style="max-width:100%;">
 
 ## :interrobang: Motivo
 
